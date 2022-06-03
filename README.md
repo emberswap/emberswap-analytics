@@ -1,6 +1,6 @@
 # EmberSwap Analytics 
 
-Analytics site for the [EmberSwap DEX](https://emberswap.com).
+Analytics site for [EmberSwap DEX](https://emberswap.com).
 
 ### To Start Development
 Have nvm installed 
