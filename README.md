@@ -1,5 +1,4 @@
-![logo](https://user-images.githubusercontent.com/96666546/172010473-26be1a58-dd04-4126-8e0f-78d0da65dc26.png)
-
+![logo](https://user-images.githubusercontent.com/96666546/172010945-788bb0c9-9f22-47c2-96f1-2af813e73902.png)
 Analytics site for [EmberSwap DEX](https://emberswap.com).
 
 ### To Start Development
