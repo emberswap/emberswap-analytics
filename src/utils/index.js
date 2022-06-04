@@ -303,10 +303,10 @@ export const setThemeColor = (theme) => document.documentElement.style.setProper
 export const Big = (number) => new BigNumber(number)
 
 export const urls = {
-  showTransaction: (tx) => `https://smartscan.cash/tx/${tx}/`,
-  showAddress: (address) => `https://www.etherscan.io/address/${address}/`,
-  showToken: (address) => `https://www.etherscan.io/token/${address}/`,
-  showBlock: (block) => `https://smartscan.cash/block/${block}/`,
+  showTransaction: (tx) => `https://smartbit.cash/tx/${tx}/`,
+  showAddress: (address) => `https://www.smartbit.cash/address/${address}/`,
+  showToken: (address) => `https://www.smartbit.cash/address/${address}/`,
+  showBlock: (block) => `https://smartbit.cash/block/${block}/`,
 }
 
 export const formatTime = (unix) => {

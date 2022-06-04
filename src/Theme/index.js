@@ -6,7 +6,6 @@ import { Text } from 'rebass'
 
 export default function ThemeProvider({ children }) {
   const [darkMode] = useDarkModeManager()
-
   return <StyledComponentsThemeProvider theme={theme(darkMode)}>{children}</StyledComponentsThemeProvider>
 }
 

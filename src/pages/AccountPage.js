@@ -239,7 +239,7 @@ function AccountPage({ account }) {
             account !== '0x8ecb32c33ab3f7ee3d6ce9d4020bc53fecb36be9' && (
               <TYPE.body style={{ marginTop: '50px' }}>
                 <BasicLink to="/accounts">{'Accounts '}</BasicLink>→{' '}
-                <Link lineHeight={'145.23%'} href={'https://smartscan.cash/address/' + account} target="_blank">
+                <Link lineHeight={'145.23%'} href={'https://smartbit.cash/address/' + account} target="_blank">
                   {' '}
                   {account?.slice(0, 42)}{' '}
                 </Link>
@@ -251,7 +251,7 @@ function AccountPage({ account }) {
           {account === '0x8ecb32c33ab3f7ee3d6ce9d4020bc53fecb36be9' && (
             <TYPE.body style={{ marginTop: '50px' }}>
               <BasicLink to="/accounts">{'Accounts '}</BasicLink>→{' '}
-              <Link lineHeight={'145.23%'} href={'https://smartscan.cash/address/' + account} target="_blank">
+              <Link lineHeight={'145.23%'} href={'https://smartbit.cash/address/' + account} target="_blank">
                 {' '}
                 {'EmberDistributorV2'}{' '}
               </Link>
@@ -264,8 +264,8 @@ function AccountPage({ account }) {
               <RowBetween>
                 <span>
                   <TYPE.header fontSize={24}>{account?.slice(0, 6) + '...' + account?.slice(38, 42)}</TYPE.header>
-                  <Link lineHeight={'145.23%'} href={'https://smartscan.cash/address/' + account} target="_blank">
-                    <TYPE.main fontSize={14}>View on SmartScan</TYPE.main>
+                  <Link lineHeight={'145.23%'} href={'https://smartbit.cash/address/' + account} target="_blank">
+                    <TYPE.main fontSize={14}>View on SmartBit</TYPE.main>
                   </Link>
                 </span>
                 <AccountWrapper>
@@ -283,8 +283,8 @@ function AccountPage({ account }) {
           <Header>
             <RowBetween>
               <span>
-                <Link lineHeight={'145.23%'} href={'https://smartscan.cash/address/' + account} target="_blank">
-                  <TYPE.main fontSize={14}>View on SmartScan</TYPE.main>
+                <Link lineHeight={'145.23%'} href={'https://smartbit.cash/address/' + account} target="_blank">
+                  <TYPE.main fontSize={14}>View on SmartBit</TYPE.main>
                 </Link>
               </span>
               <AccountWrapper>
@@ -303,8 +303,8 @@ function AccountPage({ account }) {
             <RowBetween>
               <span>
                 <TYPE.header fontSize={24}>EmberDistributorV2</TYPE.header>
-                <Link lineHeight={'145.23%'} href={'https://smartscan.cash/address/' + account} target="_blank">
-                  <TYPE.main fontSize={14}>View on SmartScan</TYPE.main>
+                <Link lineHeight={'145.23%'} href={'https://smartbit.cash/address/' + account} target="_blank">
+                  <TYPE.main fontSize={14}>View on SmartBit</TYPE.main>
                 </Link>
               </span>
               <AccountWrapper>
