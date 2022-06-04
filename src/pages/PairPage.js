@@ -203,7 +203,7 @@ function PairPage({ pairAddress, history }) {
             <TYPE.light style={{ textAlign: 'center' }}>
               {BLOCKED_WARNINGS[pairAddress] ?? `This pair is not supported.`}
             </TYPE.light>
-            <Link external={true} href={'https://smartbit.cash/address/' + pairAddress}>{`More about ${shortenAddress(
+            <Link external={true} href={'https://sonar.cash/address/' + pairAddress}>{`More about ${shortenAddress(
               pairAddress
             )}`}</Link>
           </AutoColumn>
@@ -499,8 +499,8 @@ function PairPage({ pairAddress, history }) {
                     </AutoRow>
                   </Column>
                   <ButtonLight color={backgroundColor}>
-                    <Link color={backgroundColor} external href={'https://smartbit.cash/address/' + pairAddress}>
-                      View on SmartBit ↗
+                    <Link color={backgroundColor} external href={'https://sonar.cash/address/' + pairAddress}>
+                      View on Sonar ↗
                     </Link>
                   </ButtonLight>
                 </TokenDetailsLayout>
